@@ -117,8 +117,41 @@ a:visited {
     font-weight: $bold;
     text-decoration: none;
 }
-  body {
-  }
+/* hero */ 
+#hero {
+    padding-top: 60px;
+    h1.sidebar-logo-span {
+        @include dyke-gradient;
+        color: $light-orange;
+        font-size: 1.5rem;
+        line-height: 1.65rem;
+        text-align: center;
+        span:nth-of-type(1) {
+            color: $light-pink;
+            font-weight: $bold;
+            display: inline-block;
+            font-size: 1.5rem !important;
+            line-height: 1.65rem !important;
+            text-align: center !important;
+        }
+        span {
+            color: #fff;
+            display: block;
+            font-size: 1rem;
+            font-weight: $light;
+            line-height: 1.1rem;
+            a:link,
+            a:visited {
+                border-bottom: 2px solid $light-pink;
+                color: $light-orange;
+                &:hover {
+                    color: #fff;
+                    transition: .3s color;
+                }
+            }
+        }
+    }
+}
   /* ==========================================================================
      Helper classes
      ========================================================================== */
