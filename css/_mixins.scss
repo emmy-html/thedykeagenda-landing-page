@@ -1,0 +1,18 @@
+@mixin dyke-gradient {
+    padding-bottom:10px;
+    background: /* gradient can be an image */
+      linear-gradient(
+        to right, 
+        $rgba-brown 0%,
+        $rgba-orange 22%,
+        $rgba-light-orange 47%,
+        $rgba-light-pink 67%,
+        $rgba-dark-pink 100%
+      )
+      left 
+      bottom
+      $light-brown    
+      no-repeat; 
+    background-size: 200px 7px ;/* if linear-gradient, we need to resize it */
+    background-position: bottom center;
+}
