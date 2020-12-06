@@ -211,6 +211,26 @@ a:visited {
         }
     }
 }
+/* social media */ 
+#social-media {
+    h2 {
+        color: $light-orange;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .sidebar-social-media {
+        padding-top: 10px;
+        text-align: center;
+        i {
+            color: $light-pink;
+            padding-left: 5px;
+            &:hover {
+                color: $light-orange;
+                transition: .3s color;
+            }
+        }
+    }
+}
   /* ==========================================================================
      Helper classes
      ========================================================================== */

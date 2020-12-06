@@ -180,6 +180,21 @@ a:visited {
         color: #fff;
         transition: .3s background-color; }
 
+/* social media */
+#social-media h2 {
+  color: #FF781F;
+  text-align: center;
+  padding-top: 30px; }
+#social-media .sidebar-social-media {
+  padding-top: 10px;
+  text-align: center; }
+  #social-media .sidebar-social-media i {
+    color: #C94090;
+    padding-left: 5px; }
+    #social-media .sidebar-social-media i:hover {
+      color: #FF781F;
+      transition: .3s color; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
