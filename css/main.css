@@ -132,6 +132,20 @@ a:visited {
           color: #fff;
           transition: .3s color; }
 
+/* countdown */
+#countdown {
+  padding: 30px 0px 10px 0px; }
+  #countdown #countdown-container {
+    height: 30px; }
+  #countdown h1 {
+    font-size: 1.5rem;
+    text-align: center; }
+  #countdown h2 {
+    color: #FF781F;
+    font-weight: 600;
+    text-align: center;
+    text-transform: lowercase; }
+
 /* newsletter */
 #newsletter {
   margin: 0 auto;
@@ -195,6 +209,11 @@ a:visited {
       color: #FF781F;
       transition: .3s color; }
 
+@media screen and (min-width: 768px) {
+  #countdown h1 {
+    font-size: 2.5rem; }
+  #countdown #countdown-container {
+    height: 50px; } }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
